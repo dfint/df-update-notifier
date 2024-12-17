@@ -61,8 +61,10 @@ jobs:
         id: get_data
         run: echo "json_data=$(cat last_update.json)" >> $GITHUB_OUTPUT
 
-      - name: Echo info from json
-        run: |
-         echo Title: ${{ fromJson(steps.get_data.outputs.json_data).title }}
-         echo Body: ${{ fromJson(steps.get_data.outputs.json_data).contents }}
-         echo URL: ${{ fromJson(steps.get_data.outputs.json_data).url }}
+      - name: Create issue
+        uses: JasonEtco/create-an-issue@v2
+        env:
+          TITLE: ${{ fromJson(steps.get_data.outputs.json_data).title }}
+          CONTENTS: ${{ fromJson(steps.get_data.outputs.json_data).contents }}
+          URL: ${{ fromJson(steps.get_data.outputs.json_data).url }}
+          AUTHOR: ${{ fromJson(steps.get_data.outputs.json_data).author }}
