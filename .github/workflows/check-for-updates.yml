@@ -51,16 +51,16 @@ jobs:
         if: ${{ !contains(fromJSON('["push", "pull_request"]'), github.event_name) }}
         uses: EndBug/add-and-commit@v9.1.4
         with:
-          message: "Update last_update.json"
-          add: last_update.json
+          message: "Update latest_update.json"
+          add: latest_update.json
           author_name: github-actions[bot]
           author_email: 41898282+github-actions[bot]@users.noreply.github.com
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: last_update
-          path: ./last_update.json
+          name: latest_update
+          path: ./latest_update.json
   
   create-issue:
     needs: check-for-updates
@@ -71,11 +71,11 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
-          name: last_update
+          name: latest_update
 
       - name: Get data from json
         id: get_data
-        run: echo "json_data=$(cat last_update.json)" >> $GITHUB_OUTPUT
+        run: echo "json_data=$(cat latest_update.json)" >> $GITHUB_OUTPUT
       
       - name: Print data
         run: |

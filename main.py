@@ -9,7 +9,7 @@ news_request_url = "https://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/
 df_app_id = 975370
 
 root_dir = Path(__file__).parent
-output_file = root_dir / "last_update.json"
+output_file = root_dir / "latest_update.json"
 
 
 def get_last_posts(*, count) -> list[dict[str, Any]]:
