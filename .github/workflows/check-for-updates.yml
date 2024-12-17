@@ -18,8 +18,10 @@ permissions:
   issues: write
 
 jobs:
-  dict:
+  check-for-updates:
     runs-on: ubuntu-latest
+    outputs:
+      updated: ${{ steps.script.outputs.updated }}
 
     steps:
       - uses: actions/checkout@v4
@@ -50,3 +52,11 @@ jobs:
           add: last_update.json
           author_name: github-actions[bot]
           author_email: 41898282+github-actions[bot]@users.noreply.github.com
+  
+  create-issue:
+    needs: check-for-updates
+    if: ${{ needs.check-for-updates.outputs.updated == 'yes' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create issue if updated
+        run: echo "TODO create issue"
