@@ -40,10 +40,6 @@ jobs:
         id: script
         run: echo "updated=$(uv run main.py)" >> $GITHUB_OUTPUT
 
-      - name: Create issue if updated
-        if: ${{ steps.script.outputs.updated == 'yes' }}
-        run: echo "TODO create issue"
-
       - name: Commit changes
         if: ${{ !contains(fromJSON('["push", "pull_request"]'), github.event_name) }} # commit changes only if scheduled
         uses: EndBug/add-and-commit@v9.1.4
@@ -58,5 +54,14 @@ jobs:
     if: ${{ needs.check-for-updates.outputs.updated == 'yes' }}
     runs-on: ubuntu-latest
     steps:
-      - name: Create issue if updated
-        run: echo "TODO create issue"
+      - uses: actions/checkout@v4
+      
+      - name: Get data from json
+        id: get_data
+        run: echo "json_data=$(cat last_update.json)" >> $GITHUB_OUTPUT
+
+      - name: Echo info from json
+        run: |
+         echo Title: ${{ fromJson(steps.get_data.outputs.json_data).title }}
+         echo Body: ${{ fromJson(steps.get_data.outputs.json_data).contents }}
+         echo URL: ${{ fromJson(steps.get_data.outputs.json_data).url }}
