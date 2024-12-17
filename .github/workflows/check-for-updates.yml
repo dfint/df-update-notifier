@@ -36,7 +36,7 @@ jobs:
 
       - name: Run script
         id: script
-        run: uv run main.py >> $GITHUB_OUTPUT
+        run: uv run main.py
 
       - name: Create issue if updated
         if: ${{ startsWith(steps.script.outputs.stdout, 'yes') }}
