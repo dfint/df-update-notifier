@@ -1,5 +1,5 @@
 ---
-title: DF updated: {{ env.TITLE }}
+title: "DF updated: {{ env.TITLE }}"
 labels: update
 ---
 
