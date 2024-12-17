@@ -5,13 +5,13 @@ on:
       - main
     paths:
       - 'main.py'
-      - '.github/workflows/update-dict-manifest.yml'
+      - '.github/workflows/check-for-updates.yml'
   pull_request:
     branches:
       - main
     paths:
       - 'main.py'
-      - '.github/workflows/update-dict-manifest.yml'
+      - '.github/workflows/check-for-updates.yml'
 
 permissions:
   contents: write
@@ -46,7 +46,7 @@ jobs:
         if: ${{ !contains(fromJSON('["push", "pull_request"]'), github.event_name) }} # commit changes only if scheduled
         uses: EndBug/add-and-commit@v9.1.4
         with:
-          message: "Update dictionary manifest"
+          message: "Update last_update.json"
           add: last_update.json
           author_name: github-actions[bot]
           author_email: 41898282+github-actions[bot]@users.noreply.github.com
