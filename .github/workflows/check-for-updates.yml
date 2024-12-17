@@ -39,7 +39,7 @@ jobs:
         run: uv run main.py >> $GITHUB_OUTPUT
 
       - name: Create issue if updated
-        if: ${{ startsWith(${{ steps.script.outputs.stdout }}, "yes") }}
+        if: ${{ startsWith(steps.script.outputs.stdout, 'yes') }}
         run: echo "TODO create issue"
 
       - name: Commit changes
