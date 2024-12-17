@@ -38,7 +38,8 @@ jobs:
 
       - name: Run script
         id: script
-        run: echo "updated=$(uv run main.py)" >> $GITHUB_OUTPUT
+        # run: echo "updated=$(uv run main.py)" >> $GITHUB_OUTPUT
+        run: echo "updated=yes" >> $GITHUB_OUTPUT
 
       - name: Commit changes
         if: ${{ !contains(fromJSON('["push", "pull_request"]'), github.event_name) }} # commit changes only if scheduled
