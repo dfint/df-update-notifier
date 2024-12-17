@@ -1,5 +1,8 @@
 name: Check for updates
 on:
+  schedule:
+    - cron: "0 0,6,12,18 * * *"
+
   push:
     branches:
       - main
@@ -40,8 +43,7 @@ jobs:
 
       - name: Run script
         id: script
-        # run: echo "updated=$(uv run main.py)" >> $GITHUB_OUTPUT
-        run: echo "updated=yes" >> $GITHUB_OUTPUT
+        run: echo "updated=$(uv run main.py)" >> $GITHUB_OUTPUT
 
       - name: Commit changes
         if: ${{ !contains(fromJSON('["push", "pull_request"]'), github.event_name) }} # commit changes only if scheduled
@@ -54,7 +56,7 @@ jobs:
   
   create-issue:
     needs: check-for-updates
-    if: ${{ needs.check-for-updates.outputs.updated == 'yes' }}
+    if: ${{ !contains(fromJSON('["push", "pull_request"]'), github.event_name) && needs.check-for-updates.outputs.updated == 'yes' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
