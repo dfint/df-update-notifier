@@ -1,0 +1,52 @@
+name: Check for updates
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'main.py'
+      - '.github/workflows/update-dict-manifest.yml'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'main.py'
+      - '.github/workflows/update-dict-manifest.yml'
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  dict:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.12
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v4.2.0
+        with:
+          version: "latest"
+
+      - name: Run script
+        id: script
+        run: uv run main.py >> $GITHUB_OUTPUT
+
+      - name: Create issue if updated
+        if: ${{ startsWith(${{ steps.script.outputs.stdout }}, "yes") }}
+        run: echo "TODO create issue"
+
+      - name: Commit changes
+        if: ${{ !contains(fromJSON('["push", "pull_request"]'), github.event_name) }} # commit changes only if scheduled
+        uses: EndBug/add-and-commit@v9.1.4
+        with:
+          message: "Update dictionary manifest"
+          add: last_update.json
+          author_name: github-actions[bot]
+          author_email: 41898282+github-actions[bot]@users.noreply.github.com
