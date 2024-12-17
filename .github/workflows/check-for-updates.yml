@@ -5,12 +5,14 @@ on:
       - main
     paths:
       - 'main.py'
+      - '.github/ISSUE_TEMPLATE.md'
       - '.github/workflows/check-for-updates.yml'
   pull_request:
     branches:
       - main
     paths:
       - 'main.py'
+      - '.github/ISSUE_TEMPLATE.md'
       - '.github/workflows/check-for-updates.yml'
 
 permissions:
