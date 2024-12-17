@@ -48,7 +48,7 @@ jobs:
         run: echo "updated=$(uv run main.py)" >> $GITHUB_OUTPUT
 
       - name: Commit changes
-        if: ${{ !contains(fromJSON('["push", "pull_request"]'), github.event_name) }} # commit changes only if scheduled
+        if: ${{ !contains(fromJSON('["push", "pull_request"]'), github.event_name) }}
         uses: EndBug/add-and-commit@v9.1.4
         with:
           message: "Update last_update.json"
@@ -64,7 +64,6 @@ jobs:
   
   create-issue:
     needs: check-for-updates
-    if: ${{ !contains(fromJSON('["push", "pull_request"]'), github.event_name) && needs.check-for-updates.outputs.updated == 'yes' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -77,8 +76,16 @@ jobs:
       - name: Get data from json
         id: get_data
         run: echo "json_data=$(cat last_update.json)" >> $GITHUB_OUTPUT
+      
+      - name: Print data
+        run: |
+          echo "TITLE: ${{ fromJson(steps.get_data.outputs.json_data).title }}"
+          echo "CONTENTS: ${{ fromJson(steps.get_data.outputs.json_data).contents }}"
+          echo "URL: ${{ fromJson(steps.get_data.outputs.json_data).url }}"
+          echo "AUTHOR: ${{ fromJson(steps.get_data.outputs.json_data).author }}"
 
       - name: Create issue
+        if: ${{ !contains(fromJSON('["push", "pull_request"]'), github.event_name) && needs.check-for-updates.outputs.updated == 'yes' }}
         uses: JasonEtco/create-an-issue@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
