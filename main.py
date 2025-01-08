@@ -15,7 +15,7 @@ output_file = root_dir / "latest_update.json"
 def get_last_posts(*, count) -> list[dict[str, Any]]:
     response = requests.get(
         news_request_url,
-        params=dict(appid=df_app_id, count=count, maxlength=100, format="json"),
+        params=dict(appid=df_app_id, count=count, maxlength=1000, format="json"),
     )
     response.raise_for_status()
     return response.json()["appnews"]["newsitems"]
