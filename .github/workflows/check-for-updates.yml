@@ -62,11 +62,13 @@ jobs:
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
+        if: ${{ steps.script.outputs.updated == 'yes' }}
         with:
           name: full_update_info
           path: ./full_update_info.json
-  
+
   create-issue:
+    if: ${{ !contains(fromJSON('["push", "pull_request"]'), github.event_name) && needs.check-for-updates.outputs.updated == 'yes' }}
     needs: check-for-updates
     runs-on: ubuntu-latest
     steps:
@@ -89,7 +91,6 @@ jobs:
           echo "AUTHOR: ${{ fromJson(steps.get_data.outputs.json_data).author }}"
 
       - name: Create issue
-        if: ${{ !contains(fromJSON('["push", "pull_request"]'), github.event_name) && needs.check-for-updates.outputs.updated == 'yes' }}
         uses: JasonEtco/create-an-issue@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
