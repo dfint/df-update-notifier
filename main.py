@@ -36,7 +36,13 @@ def main():
         prev_update = json.loads(output_file.read_text(encoding="utf-8"))
 
     if is_update(post["title"]) and (not output_file.exists() or prev_update["date"] < post["date"]):
-        Path(output_file).write_text(json.dumps(post), encoding="utf-8")
+        prev_update = dict(
+            gid=post["gid"],
+            date=post["date"],
+            title=post["title"],
+            appid=post["appid"],
+        )
+        output_file.write_text(json.dumps(prev_update), encoding="utf-8")
         print("yes")
     else:
         print("no")
