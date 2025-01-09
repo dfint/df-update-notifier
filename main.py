@@ -9,7 +9,8 @@ news_request_url = "https://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/
 df_app_id = 975370
 
 root_dir = Path(__file__).parent
-output_file = root_dir / "latest_update.json"
+latest_update_file = root_dir / "latest_update.json"
+full_update_info_file = root_dir / "full_update_info.json"
 
 
 def get_last_posts(*, count) -> list[dict[str, Any]]:
@@ -32,17 +33,18 @@ def main():
     posts = get_last_posts(count=1)
     post = posts[0]
 
-    if output_file.exists():
-        prev_update = json.loads(output_file.read_text(encoding="utf-8"))
+    if latest_update_file.exists():
+        prev_update = json.loads(latest_update_file.read_text(encoding="utf-8"))
 
-    if is_update(post["title"]) and (not output_file.exists() or prev_update["date"] < post["date"]):
+    if is_update(post["title"]) and (not latest_update_file.exists() or prev_update["date"] < post["date"]):
         prev_update = dict(
             gid=post["gid"],
             date=post["date"],
             title=post["title"],
             appid=post["appid"],
         )
-        output_file.write_text(json.dumps(prev_update), encoding="utf-8")
+        latest_update_file.write_text(json.dumps(prev_update), encoding="utf-8")
+        full_update_info_file.write_text(json.dumps(post), encoding="utf-8")
         print("yes")
     else:
         print("no")

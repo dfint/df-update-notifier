@@ -63,8 +63,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: latest_update
-          path: ./latest_update.json
+          name: full_update_info
+          path: ./full_update_info.json
   
   create-issue:
     needs: check-for-updates
@@ -75,11 +75,11 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
-          name: latest_update
+          name: full_update_info
 
       - name: Get data from json
         id: get_data
-        run: echo "json_data=$(cat latest_update.json)" >> $GITHUB_OUTPUT
+        run: echo "json_data=$(cat full_update_info.json)" >> $GITHUB_OUTPUT
       
       - name: Print data
         run: |
