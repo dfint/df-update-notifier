@@ -5,6 +5,7 @@ description = "A script that checks DF steam page for updates"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "jinja2>=3.1.5",
     "requests>=2.32.3",
 ]
 

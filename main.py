@@ -4,6 +4,8 @@ from typing import Any
 import requests
 import re
 
+from rss import write_rss
+
 # Docs: https://developer.valvesoftware.com/wiki/Steam_Web_API#GetNewsForApp_(v0002)
 news_request_url = "https://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/"
 df_app_id = 975370
@@ -30,7 +32,8 @@ def is_update(title: str) -> bool:
 
 
 def main():
-    posts = get_last_posts(count=1)
+    posts = [post for post in get_last_posts(count=10) if "steam_community_announcements" in post["url"]]
+
     post = posts[0]
 
     if latest_update_file.exists():
@@ -45,6 +48,7 @@ def main():
         )
         latest_update_file.write_text(json.dumps(prev_update), encoding="utf-8")
         full_update_info_file.write_text(json.dumps(post), encoding="utf-8")
+        write_rss(post)
         print("yes")
     else:
         print("no")
