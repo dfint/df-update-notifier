@@ -1,6 +1,7 @@
 from pathlib import Path
 import jinja2
 from typing import Any
+from datetime import datetime, UTC
 
 root_dir = Path(__file__).parent
 template_path = root_dir / "template.rss.jinja"
@@ -16,13 +17,15 @@ channel = dict(
 def write_rss(post: dict[str, Any]) -> str:
     template_text = template_path.read_text(encoding="utf-8")
     template = jinja2.Template(template_text)
+    pub_date = datetime.fromtimestamp(post["date"], tz=UTC)
+
     rendered = template.render(
         dict(
             channel=channel,
             items=[
                 dict(
                     title=post["title"],
-                    date=post["date"],
+                    pub_date=pub_date.strftime("%a, %d %b %Y %H:%M:%S %z"),
                     link=post["url"],
                     description=post["contents"],
                     guid=post["gid"],
