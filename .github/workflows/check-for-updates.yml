@@ -55,8 +55,8 @@ jobs:
         if: ${{ !contains(fromJSON('["push", "pull_request"]'), github.event_name) }}
         uses: EndBug/add-and-commit@v9.1.4
         with:
-          message: "Update latest_update.json"
-          add: latest_update.json
+          message: "Update latest_update.json, releases.rss"
+          add: latest_update.json releases.rss
           author_name: github-actions[bot]
           author_email: 41898282+github-actions[bot]@users.noreply.github.com
 
