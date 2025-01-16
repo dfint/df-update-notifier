@@ -52,7 +52,7 @@ jobs:
         run: echo "updated=$(uv run main.py)" >> $GITHUB_OUTPUT
 
       - name: Commit changes
-        if: ${{ !contains(fromJSON('["push", "pull_request"]'), github.event_name) }}
+        if: ${{ !contains(fromJSON('["push", "pull_request"]'), github.event_name) && steps.script.outputs.updated == 'yes' }}
         uses: EndBug/add-and-commit@v9.1.4
         with:
           message: "Update latest_update.json, releases.rss"
