@@ -5,11 +5,11 @@
     <link>https://store.steampowered.com/news/app/975370?updates=true</link>
     <description>DF releases and betas on steam</description>
     <item>
-      <title>Adventure Mode Launches January 23rd + Beta 28 Update</title>
-      <pubDate>Wed, 08 Jan 2025 13:26:28 +0000</pubDate>
-      <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1788311418983359</link>
-      <description>It's almost time! Adventure Mode will be launching out of beta on January 23rd, 2025. Watch the release date announcement trailer here: Thank you to all the urists who participated in the beta and left their helpful feedback. The mode has come a long way since it first launching in beta and we couldn't have done it without your help! We are excited to shift focus back to Fortress Mode very soon but this is also not the end of Adventure Mode development. Many updates in the future will be applied to both modes and there's still more to add to Adventure Mode in the future. As with everything in Dwarf Fortress development, it will all come in due time. More details about the next steps soon. We also have beta 28 out today with a long list of improvements and additions: Beta 28 changes Graphics Child portraits! Baby portraits! Pebble floors are differentiated from stone floors Mythical remnant images by sphere Fixed broken human hair palettes Fixed missing hoods for cloaks in portraits Fix...</description>
-      <guid>1788311418983359</guid>
+      <title>Hotfix: Patch 51.03</title>
+      <pubDate>Sat, 25 Jan 2025 18:22:58 +0000</pubDate>
+      <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1789580505378711</link>
+      <description>Patch Note 51.03 Replaced two audio files causing sound issue </description>
+      <guid>1789580505378711</guid>
     </item>
   </channel>
 </rss>
