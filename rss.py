@@ -8,9 +8,9 @@ template_path = root_dir / "template.rss.jinja"
 result_rss_path = root_dir / "releases.rss"
 
 channel = dict(
-    title="DF releases and betas",
-    link="https://store.steampowered.com/news/app/975370?updates=true",
-    description="DF releases and betas on steam",
+    title="DF steam news",
+    link="https://store.steampowered.com/news/app/975370",
+    description="DF steam news",
 )
 
 
