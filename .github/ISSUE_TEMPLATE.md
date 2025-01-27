@@ -1,6 +1,6 @@
 ---
 title: "{{ env.TITLE }}"
-labels: update
+labels: "{{ env.LABELS }}"
 ---
 
 [{{ env.TITLE }}]({{ env.URL }})
