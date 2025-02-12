@@ -1,6 +1,6 @@
 ---
 title: "{{ env.TITLE }}"
-labels: "{{ env.LABELS }}"
+labels: news
 ---
 
 [{{ env.TITLE }}]({{ env.URL }})

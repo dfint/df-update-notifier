@@ -98,4 +98,3 @@ jobs:
           CONTENTS: ${{ fromJson(steps.get_data.outputs.json_data).contents }}
           URL: ${{ fromJson(steps.get_data.outputs.json_data).url }}
           AUTHOR: ${{ fromJson(steps.get_data.outputs.json_data).author }}
-          LABELS: news
