@@ -5,11 +5,11 @@
     <link>https://store.steampowered.com/news/app/975370</link>
     <description>DF steam news</description>
     <item>
-      <title>Hotfix: Patch 51.04</title>
-      <pubDate>Mon, 27 Jan 2025 15:42:22 +0000</pubDate>
-      <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1789580505439257</link>
-      <description>Patch 51.04 Steam workshop mods should be working again. </description>
-      <guid>1789580505439257</guid>
+      <title>Next Steps for Dwarf Fortress + Patch 51.05 ⛏ Dwarf Fortress Dev News</title>
+      <pubDate>Wed, 12 Feb 2025 14:00:29 +0000</pubDate>
+      <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1791482680858984</link>
+      <description>Hey Urists, It’s Alexandra from Kitfox! We are back and hope you’ve been enjoying your time with Adventure Mode. It’s been so much fun seeing you discover magical items, creating your adventurers and running into giant snakes (a more common occurrence than I thought would happen). It’s officially time to enter a new era of Dwarf Fortress development. Now that both modes have been updated for the Steam version, we can focus on quality of life fixes, more modding support and brand new features Tarn’s been excited to add. We will be busy with Dwarf Fortress development for a long time! To start, today! Today we have patch 51.05 with some crash fixes and some other helpful changes. We also now have art for all of the tree growths, like fruit, flowers, and leaves. Patch Notes 51.05 Fortress Mode Fixed crash on justice screen and adjusted convicts menu position Fixed crash relating to empty work details list When choosing rectangles, shows dimension of rectangle Allowed numbers and symbols i...</description>
+      <guid>1791482680858984</guid>
     </item>
   </channel>
 </rss>
