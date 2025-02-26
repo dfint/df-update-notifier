@@ -5,11 +5,11 @@
     <link>https://store.steampowered.com/news/app/975370</link>
     <description>DF steam news</description>
     <item>
-      <title>Next Steps for Dwarf Fortress + Patch 51.05 ⛏ Dwarf Fortress Dev News</title>
-      <pubDate>Wed, 12 Feb 2025 14:00:29 +0000</pubDate>
-      <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1791482680858984</link>
-      <description>Hey Urists, It’s Alexandra from Kitfox! We are back and hope you’ve been enjoying your time with Adventure Mode. It’s been so much fun seeing you discover magical items, creating your adventurers and running into giant snakes (a more common occurrence than I thought would happen). It’s officially time to enter a new era of Dwarf Fortress development. Now that both modes have been updated for the Steam version, we can focus on quality of life fixes, more modding support and brand new features Tarn’s been excited to add. We will be busy with Dwarf Fortress development for a long time! To start, today! Today we have patch 51.05 with some crash fixes and some other helpful changes. We also now have art for all of the tree growths, like fruit, flowers, and leaves. Patch Notes 51.05 Fortress Mode Fixed crash on justice screen and adjusted convicts menu position Fixed crash relating to empty work details list When choosing rectangles, shows dimension of rectangle Allowed numbers and symbols i...</description>
-      <guid>1791482680858984</guid>
+      <title>Lua Beta + Patch 51.06 ⛏ Dwarf Fortress Dev News</title>
+      <pubDate>Wed, 26 Feb 2025 14:59:23 +0000</pubDate>
+      <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1792751525977523</link>
+      <description>Hey again! It’s Alexandra with a big update including patch 51.06, the Lua beta and a few things from the community too. Patch 51.06 includes a few fixes and tweaks for Fortress Mode and Adventure Mode. Patch Notes 51.06 Fortress Mode Made some strange mood dwarves not get stuck at workshop selection stage Stopped people from claiming and using inactive bedroom zones Stopped the dead from claiming inactive tomb zones Decreased prepared food item value Made custom announcement settings load properly Added setting to turn off visible rectangle dimensions Added crash safeguards to report popups and other widgets Fixed seed cap limit and made deletion of seeds over cap respect planting status Adventure Mode Added escape/rbut to leave adventurer difficulty selection Fixed issue with adventurer race selection lists not being unpopulated on exit Fixed buffer overrun involving tents Fixed crash related to site plot use allocations Added highlight to adventurer destiny selection in Classic mode...</description>
+      <guid>1792751525977523</guid>
     </item>
   </channel>
 </rss>
