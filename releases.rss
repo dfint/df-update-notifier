@@ -5,11 +5,11 @@
     <link>https://store.steampowered.com/news/app/975370</link>
     <description>DF steam news</description>
     <item>
-      <title>Lua Beta + Patch 51.06 ⛏ Dwarf Fortress Dev News</title>
-      <pubDate>Wed, 26 Feb 2025 14:59:23 +0000</pubDate>
-      <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1792751525977523</link>
-      <description>Hey again! It’s Alexandra with a big update including patch 51.06, the Lua beta and a few things from the community too. Patch 51.06 includes a few fixes and tweaks for Fortress Mode and Adventure Mode. Patch Notes 51.06 Fortress Mode Made some strange mood dwarves not get stuck at workshop selection stage Stopped people from claiming and using inactive bedroom zones Stopped the dead from claiming inactive tomb zones Decreased prepared food item value Made custom announcement settings load properly Added setting to turn off visible rectangle dimensions Added crash safeguards to report popups and other widgets Fixed seed cap limit and made deletion of seeds over cap respect planting status Adventure Mode Added escape/rbut to leave adventurer difficulty selection Fixed issue with adventurer race selection lists not being unpopulated on exit Fixed buffer overrun involving tents Fixed crash related to site plot use allocations Added highlight to adventurer destiny selection in Classic mode...</description>
-      <guid>1792751525977523</guid>
+      <title>Update 51.07: Easier reconstruction and pet protection</title>
+      <pubDate>Wed, 12 Mar 2025 14:38:30 +0000</pubDate>
+      <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1794014851392136</link>
+      <description>Hey everyone, It's Alexandra here as we continue along with the routine patches after Adventure Mode release. We have quality of life fixes for Fortress Mode including the new ability to use the previous material when replacing constructions. No need to go back through the menus over and over again! Over in Adventure Mode your speed is now displayed properly. Lots of other adjustment and fixes here as well. So far the lua tests are going smoothly and we are receiving really great feedback. If you're a mod-minded urist and want to play round with the lua update, you can check it out on the Experimental Branch. Release notes for 51.07 Fortress mode Allowed use of last material when placing simple one-stage buildings and constructions Stopped land holders without a residence from automatically moving to and gumming up capitals Animals marked for slaughter and then assigned as war animal pets are now unmarked for slaughter Stopped hidden zones in NPC fortresses on reclaims from clouding in...</description>
+      <guid>1794014851392136</guid>
     </item>
   </channel>
 </rss>
