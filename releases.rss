@@ -5,11 +5,11 @@
     <link>https://store.steampowered.com/news/app/975370</link>
     <description>DF steam news</description>
     <item>
-      <title>Update 51.07: Easier reconstruction and pet protection</title>
-      <pubDate>Wed, 12 Mar 2025 14:38:30 +0000</pubDate>
-      <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1794014851392136</link>
-      <description>Hey everyone, It's Alexandra here as we continue along with the routine patches after Adventure Mode release. We have quality of life fixes for Fortress Mode including the new ability to use the previous material when replacing constructions. No need to go back through the menus over and over again! Over in Adventure Mode your speed is now displayed properly. Lots of other adjustment and fixes here as well. So far the lua tests are going smoothly and we are receiving really great feedback. If you're a mod-minded urist and want to play round with the lua update, you can check it out on the Experimental Branch. Release notes for 51.07 Fortress mode Allowed use of last material when placing simple one-stage buildings and constructions Stopped land holders without a residence from automatically moving to and gumming up capitals Animals marked for slaughter and then assigned as war animal pets are now unmarked for slaughter Stopped hidden zones in NPC fortresses on reclaims from clouding in...</description>
-      <guid>1794014851392136</guid>
+      <title>Hotfix: Patch 51.08</title>
+      <pubDate>Thu, 13 Mar 2025 12:53:00 +0000</pubDate>
+      <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1794102528072853</link>
+      <description>Patch 51.08 Adventure Mode Fixed an input issue when discovery popups appeared </description>
+      <guid>1794102528072853</guid>
     </item>
   </channel>
 </rss>
