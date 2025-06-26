@@ -5,11 +5,11 @@
     <link>https://store.steampowered.com/news/app/975370</link>
     <description>DF steam news</description>
     <item>
-      <title>Dwarf Fortress Update 51.11: Quality of Ice Updates</title>
-      <pubDate>Mon, 21 Apr 2025 16:36:56 +0000</pubDate>
-      <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1797185861771230</link>
-      <description>Hey everyone! Alexandra here with a bit of community news and patch 51.11. In the patch, we fixed some lost information when people leave and when they arrive. We also turned off the broken underground invasions until we fix them with the siege update and a bunch of ice related bugs that have been around for years. There’s also some new graphics going in for divine/artifact weapon tiles and the leather/metal caps in the portraits which you can see here: {STEAM_CLAN_IMAGE}/34693670/f52fdc4239e5206544097ceb0735b08c92e7206c.png {STEAM_CLAN_IMAGE}/34693670/506712972ec429cf5567d4b5e4d613dc6a82971d.png Happy Birthday Tarn! We wanted to wish Tarn a belated Happy Birthday, which was on April 17th. We got together at Kitfox and made a card for him with our artistic interpretation of “Toady One” in honour of the day. You also might have noticed the preview of animal people clothing in portraits! The art is now done but it’s going to take a while to get every single portrait into the game. We are...</description>
-      <guid>1797185861771230</guid>
+      <title>Ranged Weapon Fix and Forgotten Beasts 🏹Dwarf Fortress Update 51.12</title>
+      <pubDate>Thu, 26 Jun 2025 14:01:35 +0000</pubDate>
+      <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1803527891509116</link>
+      <description>Hello! Here's a new update, focusing on ranged weapons and colorful beasts. We've reworked ranged weapons and archer behavior in preparation for the siege update. Ranged weapons can now be nocked/loaded, which takes the bulk of the time, and this can be done before firing ('n' in adventure mode.) This allows archers to be a bit safer, since they won't be paralyzed for a long while after firing a shot. The firing force of bows is affected by strength and skill up to a point, whereas crossbows are slower to load but don't require skill and attributes to get their full force. Crossbows are also easier to aim. Loading speeds of all weapons can be improved with skill. Ranged projectiles (shot or thrown) can be aimed at specific body parts. It's now also harder to hit targets that are farther away. Adventurers, fortress defenders, and enemies all have access to aiming. In the fortress, your defenders will try to use nearby fortifications, stay away from the enemy, and not use their crossbows...</description>
+      <guid>1803527891509116</guid>
     </item>
   </channel>
 </rss>
