@@ -5,11 +5,11 @@
     <link>https://store.steampowered.com/news/app/975370</link>
     <description>DF steam news</description>
     <item>
-      <title>Ranged Weapon Fix and Forgotten Beasts 🏹Dwarf Fortress Update 51.12</title>
-      <pubDate>Thu, 26 Jun 2025 14:01:35 +0000</pubDate>
-      <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1803527891509116</link>
-      <description>Hello! Here's a new update, focusing on ranged weapons and colorful beasts. We've reworked ranged weapons and archer behavior in preparation for the siege update. Ranged weapons can now be nocked/loaded, which takes the bulk of the time, and this can be done before firing ('n' in adventure mode.) This allows archers to be a bit safer, since they won't be paralyzed for a long while after firing a shot. The firing force of bows is affected by strength and skill up to a point, whereas crossbows are slower to load but don't require skill and attributes to get their full force. Crossbows are also easier to aim. Loading speeds of all weapons can be improved with skill. Ranged projectiles (shot or thrown) can be aimed at specific body parts. It's now also harder to hit targets that are farther away. Adventurers, fortress defenders, and enemies all have access to aiming. In the fortress, your defenders will try to use nearby fortifications, stay away from the enemy, and not use their crossbows...</description>
-      <guid>1803527891509116</guid>
+      <title>Hotfix: Patch 51.13</title>
+      <pubDate>Thu, 26 Jun 2025 23:41:19 +0000</pubDate>
+      <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1803527891524368</link>
+      <description>Release notes for 51.13 General updates Fixed a timing error introduced by ammo loading that caused many actions to be performed in slow motion, leading to all of the dwarves dying over a long period as drinking could not catch up with thirst. Adventurer can wait when under attack while nocking or loading. </description>
+      <guid>1803527891524368</guid>
     </item>
   </channel>
 </rss>
