@@ -5,11 +5,11 @@
     <link>https://store.steampowered.com/news/app/975370</link>
     <description>DF steam news</description>
     <item>
-      <title>Hotfix: Patch 52.02</title>
-      <pubDate>Thu, 24 Jul 2025 12:59:21 +0000</pubDate>
-      <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1806064758609894</link>
-      <description>Release Notes for 52.02: Fixed hang on Linux when updating an installed mod the first time. Removed the temporary geology variables placement layer/freq/parent from lua to prevent crashes. Fixed crash when opening the mod menu after deleting the %appdata% folder. Fixed a logic issue where any duplicated raws detected will cause further types of duplicated raws to no longer print. Init files are loaded from the game folder first so that updates always apply properly. The game now checks for prefs/arena.txt and prefs/colors.txt. Added more cases of auto-toggling portable mode if something fails to save. </description>
-      <guid>1806064758609894</guid>
+      <title>Dyes, Lua fixes and more! Dwarf Fortress Update 52.03</title>
+      <pubDate>Thu, 07 Aug 2025 17:12:38 +0000</pubDate>
+      <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1807332909577089</link>
+      <description>Hey Urists, It’s Alexandra here with update 52.03 which brings new colour and options for dying and some general fixes and improvements. From Tarn: Here is a release to continue to stabilize the lua update. There are several regular fixes as well, listed below in the patch notes. Also, we have some dye improvements for you! You can now mix dyes to produce a variety of colors, and you can tint with dyes to mix the natural color of the material and the color of the dye during the dyeing process. If you make a new world, you'll also have access to some additional outdoor plant dyes. Leather can now be dyed, and there are some new stockpile controls to help you manage all of the new stuff. If you want to see your dwarves in their new outfits after you've made some shiny clothes, there's the existing preference setting to show their dyed outfits rather than coloring them by profession. Release notes for 52.03: Dye improvements Added dye mixing. Added dyeing of leather. Added partial dyeing ...</description>
+      <guid>1807332909577089</guid>
     </item>
   </channel>
 </rss>
