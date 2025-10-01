@@ -5,11 +5,11 @@
     <link>https://store.steampowered.com/news/app/975370</link>
     <description>DF steam news</description>
     <item>
-      <title>Army fix ⚔ Dwarf Fortress Update 52.04</title>
-      <pubDate>Thu, 28 Aug 2025 19:40:31 +0000</pubDate>
-      <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1809235871595805</link>
-      <description>Hey Urists, It's Alexandra here with patch 52.04 to fix issues with armies/squads travelling. We're sorry this was such a pain to deal with in-game, it was a nasty bug. There's also some other fixes in there. The team's focus for September is continuing with the siege update. We will have more news and details to share soon. New Single Release Dabu and Simon Swerwer just released the new single, a remastered and reimagined rendition of "Danger Room" using the original recordings. The cover art is also by Dwarf Fortress pixel artist Carolyn. This track will also be making its way into the game soon. Give it a listen: Release notes for 52.04: General updates Fixed issue with squads/armies breaking into groups and not rejoining. Mod upload doesn't clobber info.txt. Fixes a crash when choosing clothing sizes in workshop. Fixed out-of-bounds error in army processing. Fixed out-of-bounds error in transformed units. Fixed armies deleting items improperly. Fixes a potential crash in wrestling....</description>
-      <guid>1809235871595805</guid>
+      <title>Siege Gameplay, Crash fixes, Mod jam and Merch ⚔ Dwarf Fortress Update 52.05</title>
+      <pubDate>Wed, 01 Oct 2025 15:03:04 +0000</pubDate>
+      <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1811772772445779</link>
+      <description>Hey Urists, It’s Alexandra here and we’ve got a packed update this week with patch 52.05, siege update footage, merch announcements and an exciting community event. The team is busily finishing the last few features before the siege update is ready to go live. Patch 52.05 brings a bunch of crashing and stability fixes. Release notes for 52.05 General updates Fixed crash caused by interrogating certain suspects under certain circumstances in world generation. Fixed crash in legends caused by missing works of art. Fixed potential out of bounds crash setting appearance contributions from parents in world generation. Fixed pathing issues caused by building construction on certain maps. Fixed some other issues related to map block allocation and path connectivity. Made training marksdwarves use the last bolt in a stack. Allowed work orders to specific plants for milling jobs. Stopped dyed items from triggering inappropriate export prohibitions. Specifying wood in certain work quotas will no...</description>
+      <guid>1811772772445779</guid>
     </item>
   </channel>
 </rss>
