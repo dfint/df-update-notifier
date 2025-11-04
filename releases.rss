@@ -5,11 +5,11 @@
     <link>https://store.steampowered.com/news/app/975370</link>
     <description>DF steam news</description>
     <item>
-      <title>The Siege Update is Out Now! 🏹</title>
-      <pubDate>Mon, 03 Nov 2025 15:01:48 +0000</pubDate>
-      <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1815034433003631</link>
-      <description>Attention Urists! The Siege Update is available now! This update completely revamps the way enemies invade your fort, empowering them to dig, build bridges, and overcome old standby defences like water or lava. Invaders will be smarter and have new weapons, but dwarves will also have new defensive tools as well. Release notes for 53.01: This is the Siege Update. Invaders should cause some more trouble now. Aside from a few minor things mentioned below, you don't have to create a new fort or world for this update. We've done about half of the possible changes we were contemplating on the roadmap and we will certainly be doing some more, especially the magical stuff, as work continues. This update is a nice self-contained improvement for regular siege behavior, so we're posting it without further delay. Siege update - Attack Invaders can build stairs and floors. Invaders can break down constructions and many blocking buildings Invaders can bring battering rams to bash through constructio...</description>
-      <guid>1815034433003631</guid>
+      <title>Hotfix: Patch 53.02</title>
+      <pubDate>Tue, 04 Nov 2025 16:36:54 +0000</pubDate>
+      <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1815034433038695</link>
+      <description>Release notes for 53.02: Here's some cleanup for the Siege Update to fix a few issues. General updates Hospital patients and babies don't shut off the brains of people carrying them, again. Made siege engine operators leave their engines when not commanded to be there. Added practice fire mode for siege engines. Fixed a crash if world population is uncapped. Corrected minor issues with siege engine target selection and skill use. Stopped wagon goods from creating incorrect transparent pixels in wagon. Fixed typo with some plurals. </description>
+      <guid>1815034433038695</guid>
     </item>
   </channel>
 </rss>
