@@ -5,11 +5,11 @@
     <link>https://store.steampowered.com/news/app/975370</link>
     <description>DF steam news</description>
     <item>
-      <title>Hotfix: Patch 53.03</title>
-      <pubDate>Mon, 10 Nov 2025 15:24:39 +0000</pubDate>
-      <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1815580768393901</link>
-      <description>Release notes for 53.03:Here are some more fixes for the Siege Update.Fixed crash when loading certain historical figures from the disk.Fixed an occasional crash when doing multi-stage construction.Fixed issue where battering ram operators could get stuck in ground when the ram turns.Stopped brewing jobs from searching for improper items.Stopped babies born in fort from worshipping extra deities.</description>
-      <guid>1815580768393901</guid>
+      <title>Scary Ogres, Siege Fixes + Fangamer Update 🗡 Dwarf Fortress Patch 53.04</title>
+      <pubDate>Mon, 17 Nov 2025 20:41:46 +0000</pubDate>
+      <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1816307528971836</link>
+      <description>Hey Urists, Here's a bigger patch for siege mode and a handful of general fixes. We've also had two hotfixes go live for immediate siege mode fixes, which you can read about here for patch 53.02 and 53.03. We've also got some news about a Fangamer sale and the highly requested restock of the pint glasses. Release notes for 53.04: Continuing to improve the Siege Update. You can now view and set the status of your siege engines from a centralized tab. Lots of improvement for invader AI, and ogres look properly scary now. There are also some general improvements to item pictures, as well as various stability fixes. Siege updates Randomized attack times throughout a given season. Added siege engines to Places. Fixed some issues with invader building targeting. Fixed issue causing humans and elves to sometimes be unable to send serious attacks. Fixed an issue causing more brazen thieves to not have their support groups. Fixed issue stopping beasts from exploring the map. Stopped immediate f...</description>
+      <guid>1816307528971836</guid>
     </item>
   </channel>
 </rss>
