@@ -5,11 +5,11 @@
     <link>https://store.steampowered.com/news/app/975370</link>
     <description>DF steam news</description>
     <item>
-      <title>Siege Fixes and New Song 🎶 Dwarf Fortress Patch 53.06</title>
-      <pubDate>Mon, 24 Nov 2025 15:30:44 +0000</pubDate>
-      <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1816849002020365</link>
-      <description>Release notes for 53.06: Continuing to add improvements to the Siege Update. Some sources of siege freezes/lag are gone, and the invaders should be a bit smarter with more active rams. Some new graphics tweaks, and a new song, "Nabidas"! The problem with inter-party fighting in adventure mode on ambush is fixed. Siege updates Fixed slowdown associated with invaders trying to break through certain floors from below. Made builders always try to connect staircases even if the main siege path has changed. Fixed issue causing siege path to sometimes reset if it required both miners and builders. Fixed issue causing battering ram pathing spam. Added some more pathing spam prevention to invader planning. Made building invaders give up on stale irrelevant far away build jobs. Improved siege composition to stop overemphasis on heavily armored unskilled invaders. Fixed some exploration behavior that got invaders stuck in trees too often. Made rams more active. Audio New song "Nabidas" plays in a...</description>
-      <guid>1816849002020365</guid>
+      <title>Dwarf Fortress Patch 53.07 🏹 What’s next for Sieges? + New animal portraits</title>
+      <pubDate>Thu, 18 Dec 2025 15:32:23 +0000</pubDate>
+      <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1819386365090176</link>
+      <description>Hey Urists, This is our last Dwarf Fortress update for the year and we have patch 53.07, a list of the upcoming major features and a winter Tarn Time video. Release notes for 53.07: Here's another patch for the Siege Update. Dwarves will now have happy thoughts to bolster them after sieges, while invader movement has been made a bit more dynamic. There are lots of new animal portraits. Hundreds of them! And the lua has been brought in line with our full set of procedural creature graphics, so forgotten beasts in new worlds should look extra fancy now. Siege Updates Added a positive thought for everybody in the fortress when a siege is defeated. Made siege leaders a bit more dynamic when cut off. Made fleeing invaders with special movement (flying, magma etc.) escape more cleanly. Added invasion creature cap and strength to the difficulty settings. Pick/wall material now impacts digging speed through natural materials (for invaders and the player). Hunters reserve only 25 bolts at embar...</description>
+      <guid>1819386365090176</guid>
     </item>
   </channel>
 </rss>
