@@ -5,11 +5,11 @@
     <link>https://store.steampowered.com/news/app/975370</link>
     <description>DF steam news</description>
     <item>
-      <title>Portrait Update + other fixes 🐶 Dwarf Fortress Patch 53.09</title>
-      <pubDate>Wed, 07 Jan 2026 16:13:17 +0000</pubDate>
-      <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1821288646577040</link>
-      <description>We heard your feedback about the portraits and updated a bunch of them that were feeling inconsistent with the tone of the game. I'm still getting a hang of making art direction decisions and wasn't as careful as I should have been. So Guido/Neoriceisgood and I talked more about the portrait art and I gave him more time to rework them. Although we always welcome feedback, it was disappointing to see disrespectful and disparaging comments directed to Guido/Neoriceisgood who was simply working within the confines of his role. And so I ask that folks be more kind to the dev team in future feedback. I also want to clarify that we do not use generative AI for Dwarf Fortress in any step of development. We make things that make things but we make them by hand. Release notes for 53.09: Here's a patch with lots of routine fixes. Lots of new portraits and some updated portraits. Small experimental beasts now have their own colorful graphics to match the forgotten beasts. Find details below: Grap...</description>
-      <guid>1821288646577040</guid>
+      <title>Aquatic portraits, Naked dwarf fix and more 🐠 Dwarf Fortress Patch 53.10</title>
+      <pubDate>Mon, 12 Jan 2026 14:34:37 +0000</pubDate>
+      <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1821288646585998</link>
+      <description>This is a tiny small release to fix the freeze issue and the naked dwarves. Release notes for 53.10: This patch fixes a freeze and a display error in some creature lists. We also added the final aquatic portraits. General updates - Stopped game from freezing during some item storage checks related to burrows. Graphics updates - Added 28 aquatic portraits to finish the set. - Made dwarves clothed again in certain lists. - Stopped last portrait being shown on small animal sheets if the animal has no portrait. - Made female peachick visible again.</description>
+      <guid>1821288646585998</guid>
     </item>
   </channel>
 </rss>
