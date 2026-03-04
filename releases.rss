@@ -5,11 +5,11 @@
     <link>https://store.steampowered.com/news/app/975370</link>
     <description>DF steam news</description>
     <item>
-      <title>Aquatic portraits, Naked dwarf fix and more 🐠 Dwarf Fortress Patch 53.10</title>
-      <pubDate>Mon, 12 Jan 2026 14:34:37 +0000</pubDate>
-      <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1821288646585998</link>
-      <description>This is a tiny small release to fix the freeze issue and the naked dwarves. Release notes for 53.10: This patch fixes a freeze and a display error in some creature lists. We also added the final aquatic portraits. General updates - Stopped game from freezing during some item storage checks related to burrows. Graphics updates - Added 28 aquatic portraits to finish the set. - Made dwarves clothed again in certain lists. - Stopped last portrait being shown on small animal sheets if the animal has no portrait. - Made female peachick visible again.</description>
-      <guid>1821288646585998</guid>
+      <title>Food fixes, AMA, community spotlight and more! 🍖 Dwarf Fortress Patch 53.11</title>
+      <pubDate>Wed, 04 Mar 2026 16:03:16 +0000</pubDate>
+      <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1826362059918689</link>
+      <description>Hey Urists, Alexandra here with with today’s patch and a bunch of community news! We've got an AMA on r/dwarffortress, some support for creating your own Dwarf Fortress gatherings and some cool stuff from the community. But first, patch 53.11 from Tarn: Patch Notes 53.11 Here's another routine patch. Notably, good food should make dwarves happier and they should seek out better food. I've been sick through February so the changes are a bit sparse, but I should be back at things now. General updates Made happy food thought levels easier to obtain (more in line with newer food values). Dwarves seek good meals more aggressively and value better foods over worse ones more precisely. Stopped dwarves from forgetting friends/grudges they rarely meet after a few years. Added item dimension check to strange moods to make sure they don't gather e.g. infinite cloth from hospital zones. Stopped world gen interrogations from sometimes disordering known site records. Fixed crash issue with error-log...</description>
+      <guid>1826362059918689</guid>
     </item>
   </channel>
 </rss>
