@@ -5,11 +5,11 @@
     <link>https://store.steampowered.com/news/app/975370</link>
     <description>DF steam news</description>
     <item>
-      <title>Food fixes, AMA, community spotlight and more! 🍖 Dwarf Fortress Patch 53.11</title>
-      <pubDate>Wed, 04 Mar 2026 16:03:16 +0000</pubDate>
-      <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1826362059918689</link>
-      <description>Hey Urists, Alexandra here with with today’s patch and a bunch of community news! We've got an AMA on r/dwarffortress, some support for creating your own Dwarf Fortress gatherings and some cool stuff from the community. But first, patch 53.11 from Tarn: Patch Notes 53.11 Here's another routine patch. Notably, good food should make dwarves happier and they should seek out better food. I've been sick through February so the changes are a bit sparse, but I should be back at things now. General updates Made happy food thought levels easier to obtain (more in line with newer food values). Dwarves seek good meals more aggressively and value better foods over worse ones more precisely. Stopped dwarves from forgetting friends/grudges they rarely meet after a few years. Added item dimension check to strange moods to make sure they don't gather e.g. infinite cloth from hospital zones. Stopped world gen interrogations from sometimes disordering known site records. Fixed crash issue with error-log...</description>
-      <guid>1826362059918689</guid>
+      <title>Myth & Magic news + Quality of life update 🧙‍♂️ Dwarf Fortress Patch 53.12</title>
+      <pubDate>Tue, 14 Apr 2026 16:38:37 +0000</pubDate>
+      <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1829528821318368</link>
+      <description>Hey everyone, We’ve got a jam-packed update today with a big quality of life patch along with a new Tarn Time video with news about Magic (the update), Magic (the cards) and another surprise! You’ll just have to watch and find out…. Patch Notes for 53.12 General updates Added display of accepted petition building projects (guildhalls and temples). Added standing orders to automatically accept or reject citizen petitions and various residency petitions. Added standing orders allowing mining designations to globally ignore new warm/damp stone warnings. Squad disband icon is no longer a red X that looks like it closes the menu. Disbanding squads now requires confirmation. Items suffer less damage from age and worn items wear down more slowly. Traders bring clothes properly sized for all fortress citizens and long-term residents. Added tooltips showing products and required materials when adding new tasks in workshops. Changed behavior of bin selection in trade menu. Clicking the bin now s...</description>
+      <guid>1829528821318368</guid>
     </item>
   </channel>
 </rss>
