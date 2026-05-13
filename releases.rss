@@ -5,11 +5,11 @@
     <link>https://store.steampowered.com/news/app/975370</link>
     <description>DF steam news</description>
     <item>
-      <title>Myth & Magic news + Quality of life update 🧙‍♂️ Dwarf Fortress Patch 53.12</title>
-      <pubDate>Tue, 14 Apr 2026 16:38:37 +0000</pubDate>
-      <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1829528821318368</link>
-      <description>Hey everyone, We’ve got a jam-packed update today with a big quality of life patch along with a new Tarn Time video with news about Magic (the update), Magic (the cards) and another surprise! You’ll just have to watch and find out…. Patch Notes for 53.12 General updates Added display of accepted petition building projects (guildhalls and temples). Added standing orders to automatically accept or reject citizen petitions and various residency petitions. Added standing orders allowing mining designations to globally ignore new warm/damp stone warnings. Squad disband icon is no longer a red X that looks like it closes the menu. Disbanding squads now requires confirmation. Items suffer less damage from age and worn items wear down more slowly. Traders bring clothes properly sized for all fortress citizens and long-term residents. Added tooltips showing products and required materials when adding new tasks in workshops. Changed behavior of bin selection in trade menu. Clicking the bin now s...</description>
-      <guid>1829528821318368</guid>
+      <title>Diplomacy Improvements + 20th Anniversary 🙌 Dwarf Fortress Patch 53.13</title>
+      <pubDate>Wed, 13 May 2026 15:25:48 +0000</pubDate>
+      <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832700592786716</link>
+      <description>Hey Urists, We’ve got another patch/community news hybrid post today! There’s lots on the go right now as we prepare for a packed summer of news and updates. The artists are finishing up dinos and continuing with the art for the Myth and Magic update. You can expect to see the dinosaur update next and we'll be sharing a release date very soon. Tarn is also in full Wizard-mode but in the meantime, he has a new patch with a focus on diplomacy and bugs: Release notes for 53.13: This patch gives messengers more tasks, like the ability to make peace and improve or open trade relations. You can assign messengers in the same menu where you assign other positions like the manager and broker, and you can give them missions from the world screen (button on the lower right.) There are also some optimizations and other fixes. Diplomacy Your appointed messengers can now do a variety of diplomatic missions from the world screen. Make peace, declare war, make contact, and improve trade. You can also ...</description>
+      <guid>1832700592786716</guid>
     </item>
   </channel>
 </rss>
